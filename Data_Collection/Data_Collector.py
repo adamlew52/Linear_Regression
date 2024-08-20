@@ -7,6 +7,8 @@ import os
 import pandas as pd
 from datetime import datetime, timedelta
 import json
+import sys
+
 
 
 
@@ -106,13 +108,19 @@ def Data_From_Ticker_List():
             except Exception as e:
                 print(f"An error occurred: {e}")
             
+def print_loading_bar(ticker_frame, ticker_symbol, iteration, total, length=40):
+    percent = (iteration / total) * 100
+    filled_length = int(length * iteration // total)
+    bar = '#' * filled_length + '-' * (length - filled_length)
+    sys.stdout.write(f'\r[{bar}] {ticker_frame} data collection is {percent:.2f}% Complete ({ticker_symbol})')
+    sys.stdout.flush()
+
 def Historical_data(ticker_symbol):
     ticker_data = yf.Ticker(ticker_symbol)
 
-    # Define periods and granularity options
     periods = ["1d", "5d", '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
     granularity_options = ["1m", "2m", "5m", "15m", "30m", "60m", "90m", "1h", "1d", "5d", "1wk", "1mo", "3mo"]
-
+    
     period_to_granularity = {
         "1d": ["1m", "2m", "5m", "15m", "30m", "60m", "90m", "1h", "1d"],
         "5d": ["5m", "15m", "30m", "60m", "90m", "1h", "1d"],
@@ -127,7 +135,9 @@ def Historical_data(ticker_symbol):
         "max": ["1d", "5d", "1wk", "1mo", "3mo"]
     }
 
-    # Initialize a list to store metadata
+    total_combinations = sum(len(granularities) for granularities in period_to_granularity.values())
+    count = 0
+
     metadata_list = []
 
     for periodInput in period_to_granularity.keys():
@@ -135,44 +145,39 @@ def Historical_data(ticker_symbol):
             # Fetch historical market data
             ticker = ticker_data.history(period=periodInput, interval=granularity, auto_adjust=False)
 
-            # Check if data was returned (i.e., the combination is valid)
             if ticker.empty:
-                print(f"No data for period {periodInput} with granularity {granularity}. Skipping...")
+                print(f"\nNo data for period {periodInput} with granularity {granularity}. Skipping...")
+                count += 1
+                print_loading_bar(ticker_symbol, ticker_symbol, count, total_combinations)
                 continue
 
-            # Sort the DataFrame by index (date)
             ticker = ticker.sort_index()
 
-            # Extract metadata
             start_date = ticker.index.min()
             end_date = ticker.index.max()
             date_of_collection = datetime.now().date()
 
-            # Add metadata columns to the DataFrame
             ticker['collection_date'] = date_of_collection
             ticker['period'] = periodInput
             ticker['granularity'] = granularity
 
-            # Print the first and last rows of the data for verification
-            #print(f"Period: {periodInput}, Granularity: {granularity}")
+            #print(f"\nPeriod: {periodInput}, Granularity: {granularity}")
             #print(f"Start Date: {start_date}")
             #print(f"End Date: {end_date}")
             #print(ticker.head())
             #print(ticker.tail())
 
-            # Directory path
-            storage_dir = f"{os.getcwd()}/Data_Collection/Storage_Location/{periodInput}_at_{granularity}/{date_of_collection}/"
+            ticker_frame = f"{periodInput}_at_{granularity}"
+
+            storage_dir = f"{os.getcwd()}/Data_Collection/Storage_Location/{ticker_frame}/{date_of_collection}/"
             os.makedirs(storage_dir, exist_ok=True)
 
-            # File path for saving data
-            file_loc = f"{storage_dir}/{ticker_symbol}_Data_{periodInput}_at_{granularity}.csv"
+            file_loc = f"{storage_dir}/{ticker_symbol}_Data_{ticker_frame}.csv"
 
-            # Write data to CSV
             try:
                 ticker.to_csv(file_loc)
                 #print(f"Data saved to {file_loc}")
 
-                # Append metadata for the current dataset
                 metadata_list.append({
                     'file_location': file_loc,
                     'collection_date': str(date_of_collection),
@@ -181,58 +186,17 @@ def Historical_data(ticker_symbol):
                     'period': periodInput,
                     'granularity': granularity
                 })
-
             except Exception as e:
                 print(f"Failed to save data: {e}")
 
-    # Save metadata to a JSON file
+            count += 1
+            print_loading_bar(ticker_symbol, ticker_frame, count, total_combinations)
+
     metadata_file_loc = f"{os.getcwd()}/Data_Collection/Metadata.json"
     with open(metadata_file_loc, 'w') as f:
         json.dump(metadata_list, f, indent=4)
 
-    print(f"Metadata saved to {metadata_file_loc}")
+    print(f"\nMetadata saved to {metadata_file_loc}")
+    print(f"Data collection for {ticker_symbol} completed.\n")
 
-class data_organization: 
-    def organize_datasets_by_size_and_ticker(directory):
-        # List all files in the directory
-        files = os.listdir(directory)
-        
-        # Sort files by size (smallest to largest)
-        files_sorted_by_size = sorted(files, key=lambda x: os.path.getsize(os.path.join(directory, x)))
-        
-        # Further sort by ticker name if needed
-        files_sorted_by_ticker = sorted(files_sorted_by_size, key=lambda x: x.split('_')[0])  # Example: sorting by ticker name
-        
-        return files_sorted_by_ticker
-
-    def organize_datasets_by_ticker_and_size(directory):
-        # Dictionary to hold files by ticker name
-        ticker_files = {}
-
-        # List all files in the directory
-        files = os.listdir(directory)
-
-        # Organize files by ticker name
-        for file in files:
-            # Assuming the ticker name is the prefix before the first underscore in the filename
-            ticker_name = file.split('_')[0]
-            if ticker_name not in ticker_files:
-                ticker_files[ticker_name] = []
-            ticker_files[ticker_name].append(file)
-
-        # Sort files within each ticker by size (smallest to largest)
-        for ticker_name in ticker_files:
-            ticker_files[ticker_name].sort(key=lambda x: os.path.getsize(os.path.join(directory, x)))
-
-        # Sort tickers alphabetically
-        sorted_tickers = sorted(ticker_files.keys())
-
-        # Flatten the list: First by ticker name, then by dataset size
-        sorted_files = []
-        for ticker in sorted_tickers:
-            sorted_files.extend(ticker_files[ticker])
-
-        return sorted_files
-
-
-Data_From_Ticker_List()
+#Data_From_Ticker_List()

@@ -1,6 +1,6 @@
 [
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_1m/2024-08-18//GOOGL_Data_1d_at_1m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_1m/2024-08-18//KO_Data_1d_at_1m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-16 09:30:00-04:00",
         "end_date": "2024-08-16 15:59:00-04:00",
@@ -8,7 +8,7 @@
         "granularity": "1m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_2m/2024-08-18//GOOGL_Data_1d_at_2m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_2m/2024-08-18//KO_Data_1d_at_2m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-16 09:30:00-04:00",
         "end_date": "2024-08-16 15:58:00-04:00",
@@ -16,7 +16,7 @@
         "granularity": "2m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_5m/2024-08-18//GOOGL_Data_1d_at_5m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_5m/2024-08-18//KO_Data_1d_at_5m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-16 09:30:00-04:00",
         "end_date": "2024-08-16 15:55:00-04:00",
@@ -24,7 +24,7 @@
         "granularity": "5m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_15m/2024-08-18//GOOGL_Data_1d_at_15m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_15m/2024-08-18//KO_Data_1d_at_15m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-16 09:30:00-04:00",
         "end_date": "2024-08-16 15:45:00-04:00",
@@ -32,7 +32,7 @@
         "granularity": "15m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_30m/2024-08-18//GOOGL_Data_1d_at_30m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_30m/2024-08-18//KO_Data_1d_at_30m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-16 09:30:00-04:00",
         "end_date": "2024-08-16 15:30:00-04:00",
@@ -40,7 +40,7 @@
         "granularity": "30m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_60m/2024-08-18//GOOGL_Data_1d_at_60m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_60m/2024-08-18//KO_Data_1d_at_60m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-16 09:30:00-04:00",
         "end_date": "2024-08-16 15:30:00-04:00",
@@ -48,7 +48,7 @@
         "granularity": "60m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_90m/2024-08-18//GOOGL_Data_1d_at_90m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_90m/2024-08-18//KO_Data_1d_at_90m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-16 09:30:00-04:00",
         "end_date": "2024-08-16 15:30:00-04:00",
@@ -56,7 +56,7 @@
         "granularity": "90m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_1h/2024-08-18//GOOGL_Data_1d_at_1h.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_1h/2024-08-18//KO_Data_1d_at_1h.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-16 09:30:00-04:00",
         "end_date": "2024-08-16 15:30:00-04:00",
@@ -64,7 +64,7 @@
         "granularity": "1h"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_1d/2024-08-18//GOOGL_Data_1d_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1d_at_1d/2024-08-18//KO_Data_1d_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-16 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -72,7 +72,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_5m/2024-08-18//GOOGL_Data_5d_at_5m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_5m/2024-08-18//KO_Data_5d_at_5m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-12 09:30:00-04:00",
         "end_date": "2024-08-16 15:55:00-04:00",
@@ -80,7 +80,7 @@
         "granularity": "5m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_15m/2024-08-18//GOOGL_Data_5d_at_15m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_15m/2024-08-18//KO_Data_5d_at_15m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-12 09:30:00-04:00",
         "end_date": "2024-08-16 15:45:00-04:00",
@@ -88,7 +88,7 @@
         "granularity": "15m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_30m/2024-08-18//GOOGL_Data_5d_at_30m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_30m/2024-08-18//KO_Data_5d_at_30m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-12 09:30:00-04:00",
         "end_date": "2024-08-16 15:30:00-04:00",
@@ -96,7 +96,7 @@
         "granularity": "30m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_60m/2024-08-18//GOOGL_Data_5d_at_60m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_60m/2024-08-18//KO_Data_5d_at_60m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-12 09:30:00-04:00",
         "end_date": "2024-08-16 15:30:00-04:00",
@@ -104,7 +104,7 @@
         "granularity": "60m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_90m/2024-08-18//GOOGL_Data_5d_at_90m.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_90m/2024-08-18//KO_Data_5d_at_90m.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-12 09:30:00-04:00",
         "end_date": "2024-08-16 15:30:00-04:00",
@@ -112,7 +112,7 @@
         "granularity": "90m"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_1h/2024-08-18//GOOGL_Data_5d_at_1h.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_1h/2024-08-18//KO_Data_5d_at_1h.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-12 09:30:00-04:00",
         "end_date": "2024-08-16 15:30:00-04:00",
@@ -120,7 +120,7 @@
         "granularity": "1h"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_1d/2024-08-18//GOOGL_Data_5d_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5d_at_1d/2024-08-18//KO_Data_5d_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-12 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -128,7 +128,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1mo_at_1d/2024-08-18//GOOGL_Data_1mo_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1mo_at_1d/2024-08-18//KO_Data_1mo_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-07-17 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -136,7 +136,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1mo_at_5d/2024-08-18//GOOGL_Data_1mo_at_5d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1mo_at_5d/2024-08-18//KO_Data_1mo_at_5d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-07-17 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -144,7 +144,7 @@
         "granularity": "5d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1mo_at_1wk/2024-08-18//GOOGL_Data_1mo_at_1wk.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1mo_at_1wk/2024-08-18//KO_Data_1mo_at_1wk.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-07-15 00:00:00-04:00",
         "end_date": "2024-08-12 00:00:00-04:00",
@@ -152,7 +152,7 @@
         "granularity": "1wk"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1mo_at_1mo/2024-08-18//GOOGL_Data_1mo_at_1mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1mo_at_1mo/2024-08-18//KO_Data_1mo_at_1mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-08-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -160,7 +160,7 @@
         "granularity": "1mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_1d/2024-08-18//GOOGL_Data_3mo_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_1d/2024-08-18//KO_Data_3mo_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-05-17 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -168,7 +168,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_5d/2024-08-18//GOOGL_Data_3mo_at_5d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_5d/2024-08-18//KO_Data_3mo_at_5d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-05-17 00:00:00-04:00",
         "end_date": "2024-08-15 00:00:00-04:00",
@@ -176,7 +176,7 @@
         "granularity": "5d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_1wk/2024-08-18//GOOGL_Data_3mo_at_1wk.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_1wk/2024-08-18//KO_Data_3mo_at_1wk.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-05-13 00:00:00-04:00",
         "end_date": "2024-08-12 00:00:00-04:00",
@@ -184,7 +184,7 @@
         "granularity": "1wk"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_1mo/2024-08-18//GOOGL_Data_3mo_at_1mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_1mo/2024-08-18//KO_Data_3mo_at_1mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-06-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -192,7 +192,7 @@
         "granularity": "1mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_3mo/2024-08-18//GOOGL_Data_3mo_at_3mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/3mo_at_3mo/2024-08-18//KO_Data_3mo_at_3mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-05-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -200,7 +200,7 @@
         "granularity": "3mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_1d/2024-08-18//GOOGL_Data_6mo_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_1d/2024-08-18//KO_Data_6mo_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-02-20 00:00:00-05:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -208,7 +208,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_5d/2024-08-18//GOOGL_Data_6mo_at_5d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_5d/2024-08-18//KO_Data_6mo_at_5d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-02-22 00:00:00-05:00",
         "end_date": "2024-08-15 00:00:00-04:00",
@@ -216,7 +216,7 @@
         "granularity": "5d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_1wk/2024-08-18//GOOGL_Data_6mo_at_1wk.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_1wk/2024-08-18//KO_Data_6mo_at_1wk.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-02-12 00:00:00-05:00",
         "end_date": "2024-08-12 00:00:00-04:00",
@@ -224,7 +224,7 @@
         "granularity": "1wk"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_1mo/2024-08-18//GOOGL_Data_6mo_at_1mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_1mo/2024-08-18//KO_Data_6mo_at_1mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-03-01 00:00:00-05:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -232,7 +232,7 @@
         "granularity": "1mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_3mo/2024-08-18//GOOGL_Data_6mo_at_3mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/6mo_at_3mo/2024-08-18//KO_Data_6mo_at_3mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-02-01 00:00:00-05:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -240,7 +240,7 @@
         "granularity": "3mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_1d/2024-08-18//GOOGL_Data_1y_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_1d/2024-08-18//KO_Data_1y_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2023-08-17 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -248,7 +248,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_5d/2024-08-18//GOOGL_Data_1y_at_5d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_5d/2024-08-18//KO_Data_1y_at_5d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2023-08-17 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -256,7 +256,7 @@
         "granularity": "5d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_1wk/2024-08-18//GOOGL_Data_1y_at_1wk.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_1wk/2024-08-18//KO_Data_1y_at_1wk.csv",
         "collection_date": "2024-08-18",
         "start_date": "2023-08-14 00:00:00-04:00",
         "end_date": "2024-08-12 00:00:00-04:00",
@@ -264,7 +264,7 @@
         "granularity": "1wk"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_1mo/2024-08-18//GOOGL_Data_1y_at_1mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_1mo/2024-08-18//KO_Data_1y_at_1mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2023-09-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -272,7 +272,7 @@
         "granularity": "1mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_3mo/2024-08-18//GOOGL_Data_1y_at_3mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/1y_at_3mo/2024-08-18//KO_Data_1y_at_3mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2023-08-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -280,7 +280,7 @@
         "granularity": "3mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_1d/2024-08-18//GOOGL_Data_2y_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_1d/2024-08-18//KO_Data_2y_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2022-08-17 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -288,7 +288,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_5d/2024-08-18//GOOGL_Data_2y_at_5d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_5d/2024-08-18//KO_Data_2y_at_5d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2022-08-17 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -296,7 +296,7 @@
         "granularity": "5d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_1wk/2024-08-18//GOOGL_Data_2y_at_1wk.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_1wk/2024-08-18//KO_Data_2y_at_1wk.csv",
         "collection_date": "2024-08-18",
         "start_date": "2022-08-15 00:00:00-04:00",
         "end_date": "2024-08-12 00:00:00-04:00",
@@ -304,7 +304,7 @@
         "granularity": "1wk"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_1mo/2024-08-18//GOOGL_Data_2y_at_1mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_1mo/2024-08-18//KO_Data_2y_at_1mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2022-09-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -312,7 +312,7 @@
         "granularity": "1mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_3mo/2024-08-18//GOOGL_Data_2y_at_3mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/2y_at_3mo/2024-08-18//KO_Data_2y_at_3mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2022-08-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -320,7 +320,7 @@
         "granularity": "3mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_1d/2024-08-18//GOOGL_Data_5y_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_1d/2024-08-18//KO_Data_5y_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2019-08-19 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -328,7 +328,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_5d/2024-08-18//GOOGL_Data_5y_at_5d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_5d/2024-08-18//KO_Data_5y_at_5d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2019-08-22 00:00:00-04:00",
         "end_date": "2024-08-15 00:00:00-04:00",
@@ -336,7 +336,7 @@
         "granularity": "5d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_1wk/2024-08-18//GOOGL_Data_5y_at_1wk.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_1wk/2024-08-18//KO_Data_5y_at_1wk.csv",
         "collection_date": "2024-08-18",
         "start_date": "2019-08-12 00:00:00-04:00",
         "end_date": "2024-08-12 00:00:00-04:00",
@@ -344,7 +344,7 @@
         "granularity": "1wk"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_1mo/2024-08-18//GOOGL_Data_5y_at_1mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_1mo/2024-08-18//KO_Data_5y_at_1mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2019-09-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -352,7 +352,7 @@
         "granularity": "1mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_3mo/2024-08-18//GOOGL_Data_5y_at_3mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/5y_at_3mo/2024-08-18//KO_Data_5y_at_3mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2019-08-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -360,7 +360,7 @@
         "granularity": "3mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_1d/2024-08-18//GOOGL_Data_10y_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_1d/2024-08-18//KO_Data_10y_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2014-08-18 00:00:00-04:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -368,7 +368,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_5d/2024-08-18//GOOGL_Data_10y_at_5d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_5d/2024-08-18//KO_Data_10y_at_5d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2014-08-22 00:00:00-04:00",
         "end_date": "2024-08-14 00:00:00-04:00",
@@ -376,7 +376,7 @@
         "granularity": "5d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_1wk/2024-08-18//GOOGL_Data_10y_at_1wk.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_1wk/2024-08-18//KO_Data_10y_at_1wk.csv",
         "collection_date": "2024-08-18",
         "start_date": "2014-08-18 00:00:00-04:00",
         "end_date": "2024-08-12 00:00:00-04:00",
@@ -384,7 +384,7 @@
         "granularity": "1wk"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_1mo/2024-08-18//GOOGL_Data_10y_at_1mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_1mo/2024-08-18//KO_Data_10y_at_1mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2014-09-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -392,7 +392,7 @@
         "granularity": "1mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_3mo/2024-08-18//GOOGL_Data_10y_at_3mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/10y_at_3mo/2024-08-18//KO_Data_10y_at_3mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2014-08-01 00:00:00-04:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -400,7 +400,7 @@
         "granularity": "3mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/ytd_at_1d/2024-08-18//GOOGL_Data_ytd_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/ytd_at_1d/2024-08-18//KO_Data_ytd_at_1d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-01-02 00:00:00-05:00",
         "end_date": "2024-08-16 00:00:00-04:00",
@@ -408,7 +408,7 @@
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/ytd_at_5d/2024-08-18//GOOGL_Data_ytd_at_5d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/ytd_at_5d/2024-08-18//KO_Data_ytd_at_5d.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-01-02 00:00:00-05:00",
         "end_date": "2024-08-14 00:00:00-04:00",
@@ -416,7 +416,7 @@
         "granularity": "5d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/ytd_at_1wk/2024-08-18//GOOGL_Data_ytd_at_1wk.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/ytd_at_1wk/2024-08-18//KO_Data_ytd_at_1wk.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-01-01 00:00:00-05:00",
         "end_date": "2024-08-12 00:00:00-04:00",
@@ -424,7 +424,7 @@
         "granularity": "1wk"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/ytd_at_1mo/2024-08-18//GOOGL_Data_ytd_at_1mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/ytd_at_1mo/2024-08-18//KO_Data_ytd_at_1mo.csv",
         "collection_date": "2024-08-18",
         "start_date": "2024-02-01 00:00:00-05:00",
         "end_date": "2024-08-01 00:00:00-04:00",
@@ -432,42 +432,42 @@
         "granularity": "1mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_1d/2024-08-18//GOOGL_Data_max_at_1d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_1d/2024-08-18//KO_Data_max_at_1d.csv",
         "collection_date": "2024-08-18",
-        "start_date": "2004-08-19 00:00:00-04:00",
+        "start_date": "1962-01-02 00:00:00-05:00",
         "end_date": "2024-08-16 00:00:00-04:00",
         "period": "max",
         "granularity": "1d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_5d/2024-08-18//GOOGL_Data_max_at_5d.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_5d/2024-08-18//KO_Data_max_at_5d.csv",
         "collection_date": "2024-08-18",
-        "start_date": "2004-08-19 00:00:00-04:00",
+        "start_date": "1962-01-02 00:00:00-05:00",
         "end_date": "2024-08-14 00:00:00-04:00",
         "period": "max",
         "granularity": "5d"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_1wk/2024-08-18//GOOGL_Data_max_at_1wk.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_1wk/2024-08-18//KO_Data_max_at_1wk.csv",
         "collection_date": "2024-08-18",
-        "start_date": "2004-08-16 00:00:00-04:00",
+        "start_date": "1962-01-01 00:00:00-05:00",
         "end_date": "2024-08-12 00:00:00-04:00",
         "period": "max",
         "granularity": "1wk"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_1mo/2024-08-18//GOOGL_Data_max_at_1mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_1mo/2024-08-18//KO_Data_max_at_1mo.csv",
         "collection_date": "2024-08-18",
-        "start_date": "2004-09-01 00:00:00-04:00",
+        "start_date": "1985-01-01 00:00:00-05:00",
         "end_date": "2024-08-01 00:00:00-04:00",
         "period": "max",
         "granularity": "1mo"
     },
     {
-        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_3mo/2024-08-18//GOOGL_Data_max_at_3mo.csv",
+        "file_location": "/Users/adam/Documents/GitHub/Linear_Regression/Data_Collection/Storage_Location/max_at_3mo/2024-08-18//KO_Data_max_at_3mo.csv",
         "collection_date": "2024-08-18",
-        "start_date": "2004-08-01 00:00:00-04:00",
-        "end_date": "2024-08-01 00:00:00-04:00",
+        "start_date": "1985-01-01 00:00:00-05:00",
+        "end_date": "2024-07-01 00:00:00-04:00",
         "period": "max",
         "granularity": "3mo"
     }
