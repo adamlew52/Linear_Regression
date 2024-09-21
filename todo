@@ -1,0 +1,9 @@
+
+
+
+
+1. finish normalizing all the article data, every single article should be ranked between -1,1
+2. sum the normalzied article data to decide if a day indicated -1 or 1 change
+3. pull actual stock data from that day, normalize to -1, 1
+4. compare the two and see what the difference is
+5. use 

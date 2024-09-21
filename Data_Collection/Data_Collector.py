@@ -199,4 +199,4 @@ def Historical_data(ticker_symbol):
     print(f"\nMetadata saved to {metadata_file_loc}")
     print(f"Data collection for {ticker_symbol} completed.\n")
 
-#Data_From_Ticker_List()
+#Data_From_Ticker_List() #run this to collect all the recent data
